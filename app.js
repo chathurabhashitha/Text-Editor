@@ -21,3 +21,6 @@ $('.left').on('click',function(){
  $('.right').on('click',function(){
     document.getElementById('editor').style.textAlign = 'right '   
   })
+  $('.center').on('click',function(){
+    document.getElementById('editor').style.textAlign = 'center '
+ })
